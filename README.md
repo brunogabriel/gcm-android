@@ -27,6 +27,7 @@ In Android project:
 
 1. First, please, read as soon as possible all comments (small quantity) in `.java` files, because some contains tips, e.g. in function `executeBusinessRule`, where its possible for users save unique device id in databases (like chat application, to send notification or start a chat).  
 
-2. In gradle file, has an important dependency: 'com.google.android.gms:play-services:8.4.0', to enable receive data.
+2. In gradle file, has an important dependency: `com.google.android.gms:play-services:8.4.0`, to enable receive data.
 
+3. In `string.xml`, change `gcm_default_sender_id` value to your `project id` (;D)
 
