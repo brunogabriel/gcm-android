@@ -14,10 +14,16 @@ I will suppose that you have your bundle id application (in AndroidManifest.xml)
 First it is necessary to create and enable GCM by making a project, steps:
 
 1. With your package android in hands:
-	- enter in [Google Developers Console] (http://console.developers.google.com) and create your own application, in my case named Native GCM.
+	- Enter in [Google Developers Console] (http://console.developers.google.com) and create your own application, in my case named Native GCM.
 	
 2. Do not forgot to save your project number, we will use it in Android Application directly.
 
 3. Create your credentials:
     - When I made it, I did not saved an IP Address, only empty this field to test.
     - So now, write your credentials key.
+
+### Configuration: Android application
+In Android project:
+
+1. First, please, read as soon as possible all comments (small quantity) in @.java files, because some contains tips, e.g.  
+
