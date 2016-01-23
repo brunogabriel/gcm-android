@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Native GCM</string>
+    <!-- In this field, put your project number -->
+    <string name="gcm_default_sender_id">111</string>
+</resources>
