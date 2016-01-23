@@ -3,6 +3,8 @@
 Android GCM - Google Cloud Message
 This is a simple example of how to use GCM in Android applications. My motivation is help users to put this feature in your applications, because in some topics, I saw problems in how to implement it, but in general is very easy.
 
+To create this repository, I read [official GCM Page](https://developers.google.com/cloud-messaging/) and Android API.
+
 I will suppose that you have your bundle id application (in AndroidManifest.xml), in my example I will use:
 
 ```xml
