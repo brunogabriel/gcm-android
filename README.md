@@ -31,7 +31,7 @@ In Android project:
 
 2. In gradle file, has an important dependency: `com.google.android.gms:play-services:8.4.0`, to enable receive data.
 
-3. In `string.xml`, don`t forgot to change `gcm_default_sender_id` value to your `project number` (step 2 in register account).
+3. In `string.xml`, don't forgot to change `gcm_default_sender_id` value to your `project number` (step 2 in register account).
 
 4. Please, see implementation in `AndroidManifest.xml`, because there are features necessary to application work correctly.
 
