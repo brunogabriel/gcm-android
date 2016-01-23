@@ -25,5 +25,5 @@ First it is necessary to create and enable GCM by making a project, steps:
 ### Configuration: Android application
 In Android project:
 
-1. First, please, read as soon as possible all comments (small quantity) in @.java files, because some contains tips, e.g.  
+1. First, please, read as soon as possible all comments (small quantity) in `.java` files, because some contains tips, e.g.  
 
