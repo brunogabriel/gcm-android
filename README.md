@@ -45,6 +45,7 @@ In `GCMListenerService` we've important features:
 
 ### Servers
 If you have no idea how to implement a server, see this section.
+
 1. [PHP](https://github.com/brunogabriel/gcm-android/tree/master/php_sender)
 
 Screenshots
