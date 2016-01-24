@@ -7,6 +7,7 @@ import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
+import com.example.brunogabriel.nativegcm.MainActivity;
 import com.example.brunogabriel.nativegcm.R;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.android.gms.iid.InstanceID;
@@ -65,6 +66,7 @@ public class RegistrationIntentService extends IntentService {
     public void executeBusinessRule(String mToken) {
         if(mToken!=null && mToken.length()>0) {
             Log.d(REGISTRATION_DEBUG, "Current token: " + mToken);
+            MainActivity.updateCredentials(mToken);
         }
     }
 }

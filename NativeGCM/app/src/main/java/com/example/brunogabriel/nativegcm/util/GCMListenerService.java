@@ -44,7 +44,7 @@ public class GCMListenerService  extends GcmListenerService {
                 String mMessage = data.getString("message", "message is empty");
                 String mSubtitle = data.getString("subtitle", "subtitle is empty");
 
-                // Clear activity top or open, as necessary
+                // Clear activity top or open, as necessary, you need to implement your rule
                 Intent mIntent = new Intent(this, MainActivity.class);
                 mIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
