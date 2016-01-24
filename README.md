@@ -1,6 +1,4 @@
-# Android GCM - only a sample
-
-Android GCM - Google Cloud Message
+# Android GCM - Google Cloud Message
 This is a simple example of how to use GCM in Android applications. My motivation is help users to put this feature in your applications, because in some topics, I saw problems in how to implement it, but in general is very easy.
 
 To create this repository, I read [official GCM Page](https://developers.google.com/cloud-messaging/) and Android API.
@@ -44,6 +42,14 @@ In `GCMListenerService` we've important features:
 
 1. `onMessageReceived` - Contains a bundle received, in our case, JSON Data (Bundle). 
 2. `sendNotification` - Method that calls a device [local notification](http://developer.android.com/reference/android/support/v4/app/NotificationCompat.html), push alert.
+
+### Servers
+
+Now, you need to encapsulate your message in a json request, in sequence, send to Google Server. Google has a responsibility to send data (push).
+
+If you have no idea how to implement a server, see this section.
+
+1. [PHP](https://github.com/brunogabriel/gcm-android/tree/master/php_sender)
 
 Screenshots
 -----------
