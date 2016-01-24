@@ -45,5 +45,9 @@ In `GCMListenerService` we've important features:
 1. `onMessageReceived` - Contains a bundle received, in our case, JSON Data (Bundle). 
 2. `sendNotification` - Method that calls a device [local notification](http://developer.android.com/reference/android/support/v4/app/NotificationCompat.html), push alert.
 
+Screenshots
+-----------
+![Screenshot](root_images/device1.png)
+
 
 
