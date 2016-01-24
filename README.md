@@ -44,6 +44,9 @@ In `GCMListenerService` we've important features:
 2. `sendNotification` - Method that calls a device [local notification](http://developer.android.com/reference/android/support/v4/app/NotificationCompat.html), push alert.
 
 ### Servers
+
+Now, you need to encapsulate your message in a json request, in sequence, send to Google Server. Google has a responsibility to send data (push).
+
 If you have no idea how to implement a server, see this section.
 
 1. [PHP](https://github.com/brunogabriel/gcm-android/tree/master/php_sender)
