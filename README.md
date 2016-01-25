@@ -56,4 +56,12 @@ Screenshots
 ![Screenshot](root_images/device1.png)
 
 
+### References and Credits
+*  [Google Cloud Messaging](https://developers.google.com/cloud-messaging/)
+*  [Google APIs for Mobile: Quickstarts](https://github.com/googlesamples/google-services)
+
+### LICENSE
+[Click here to see](https://github.com/brunogabriel/gcm-android/blob/master/LICENSE)
+
+
 
